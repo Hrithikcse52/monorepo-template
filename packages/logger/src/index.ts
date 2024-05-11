@@ -1,4 +1,3 @@
-export const log = (...args: unknown[]): void => {
-  // eslint-disable-next-line no-console -- logger
+export const log = (...args: unknown[]) => {
   console.log("LOGGER: ", ...args);
 };
